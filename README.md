@@ -38,6 +38,8 @@ dependencies:
 ## Execution
 
 - Validate downloaded image dataset (optional).
+  - Remove `014_00009159_stem.jpg`
+  - Raises `Bad image: image file is truncated (14 bytes not processed)`
 
 ```bash
 python verify.py /dataset/training
